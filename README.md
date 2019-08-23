@@ -40,9 +40,9 @@ Give your username, email id and password to complete the user creation process.
 
 The project is build using , Django and Wagtail . The Documentations offer the best help .
 
-1.  Wagtail Documentation 
-2. Django Documentation 
-3. Python Documentation
+1.  Wagtail Documentation
+2.  Django Documentation
+3.  Python Documentation
 
 # Support
 
