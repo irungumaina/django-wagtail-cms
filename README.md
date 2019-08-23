@@ -1,31 +1,55 @@
-# Learn Wagtail (from scratch)
+# Django - Wagtail Content Management System
 
-All the code in this repository is what you've seen in the Learn Wagtail video course. This repo follows a course designed to teach Wagtail without necessarily understanding Django or any other Python specific packages.
-
-### learnwagtail.com course
-
-The entire Learn Wagtail course, and additional materials, can be found at [https://learnwagtail.com/course/](https://learnwagtail.com/course/). There are more written tutorials on learnwagtail.com.
-
-### YouTube Playlist
-
-All the videos are hosted on YouTube as well [https://www.youtube.com/playlist?list=PLMQHMcNi6ocsS8Bfnuy_IDgJ4bHRRrvub](https://www.youtube.com/playlist?list=PLMQHMcNi6ocsS8Bfnuy_IDgJ4bHRRrvub). There's currently over 35 videos to digest. And once again, all the code you see in the videos can be referrenced in this GitHub repository.
-
-### Documentation
-
-Most of the videos have some form of written tutorial that you can find on the learnwagtail.com website. But please keep in mind that learnwagtail.com is not trying to re-write the [Wagtail Documentation](http://docs.wagtail.io/en/latestl/), it's merely an additional support line. For more clear documentation about feature-specific details, you are always urged to read the Wagtail Docs.
-
-### Support
-
-Are you new to Wagtail CMS? Or do you have a question that isn't answered in the docs or on [StackOverflow](https://stackoverflow.com/search?q=wagtail)? You can [join the free community of almost 1,000 members on Slack](https://wagtail-slack.now.sh/)
-
-# About this Project
+This is an ongoing project for a Content Management System .
+Wagtail is a Python CMS powered by Django, focusing on flexibility and user experience.
+The initial code was inspired by @KalobTaulien from CodingForEverybody/learn-wagtail tutorials .
 
 # Using this project
 
+It is a ready to use cms , with modifications to fit any project.
+
 # Installation and set up
+
+Run the following commands:
+
+git clone https://github.com/irungumaina/django-wagtail-cms.git
+cd django-wagtail-cms
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+
+# Logging in
+
+The awesome Wagtail CMS can now be accessible at http://127.0.0.1:8000/
+Wagtail admin interface at http://127.0.0.1:8000/admin/ .
+
+To login into admin panel create a superuser:
+python manage.py createsuperuser
+Give your username, email id and password to complete the user creation process.
+
+# Apps included
+
+    home
+    blog
+    contact
+    core
+    flex
+    menus
 
 # Documentation
 
+The project is build using , Django and Wagtail . Their Documentations offer the best help .
+
+1.  Wagtail Documentation 2. Django Documentation 3. Python Documentation
+
 # Support
 
+For support and improvements ,raise it here .
+
 # Recognition
+
+Much appreciation to :
+
+1. https://www.youtube.com/playlist? list=PLMQHMcNi6ocsS8Bfnuy_IDgJ4bHRRrvub
+2. CodingForEverybody/learn-wagtail by @KalobTaulien
+3. @KalobTaulien

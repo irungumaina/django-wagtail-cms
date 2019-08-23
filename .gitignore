@@ -4,6 +4,14 @@
 local.py
 .mypy_cache
 *.djcache
+*.pyc
+.DS_Store
+*.swp
+/venv/
+/static/
+/media/
+
+
 
 # Temporary files
 *.swp
