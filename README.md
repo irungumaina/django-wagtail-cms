@@ -38,18 +38,12 @@ Give your username, email id and password to complete the user creation process.
 
 # Documentation
 
-The project is build using , Django and Wagtail . Their Documentations offer the best help .
+The project is build using , Django and Wagtail . The Documentations offer the best help .
 
-1.  Wagtail Documentation 2. Django Documentation 3. Python Documentation
+1.  Wagtail Documentation 
+2. Django Documentation 
+3. Python Documentation
 
 # Support
 
 For support and improvements ,raise it here .
-
-# Recognition
-
-Much appreciation to :
-
-1. https://www.youtube.com/playlist? list=PLMQHMcNi6ocsS8Bfnuy_IDgJ4bHRRrvub
-2. CodingForEverybody/learn-wagtail by @KalobTaulien
-3. @KalobTaulien
