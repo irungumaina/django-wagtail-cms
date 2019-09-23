@@ -10,13 +10,12 @@ It is a ready to use cms , with modifications to fit any project.
 
 # Installation and set up
 
-Run the following commands:
-
-git clone https://github.com/irungumaina/django-wagtail-cms.git
-cd django-wagtail-cms
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
+Run the following commands
+1. git clone https://github.com/irungumaina/django-wagtail-cms.git
+2. cd django-wagtail-cms
+3. pip install -r requirements.txt
+4. python manage.py migrate
+5. python manage.py runserver
 
 # Logging in
 
